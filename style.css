@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body {
+body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-login {
+body * {
+    box-sizing: border-box;
+}
+
+.main-login{
     width: 100vw;
     height: 100vh;
     background: #0D0D1F;
@@ -14,7 +18,7 @@ body {
     align-items: center; 
 }
 
-.left-login {
+.left-login{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -23,11 +27,16 @@ body {
     flex-direction: column;
 }
 
-.left-login > h1 {
+.left-login > h1{
+    font-size: 3vw;
     color: #00ff88;
 }
 
-.right-login {
+.login-image{
+    width: 35vh;
+}
+
+.right-login{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -36,7 +45,7 @@ body {
 
 }
 
-.card-login {
+.card-login{
     width: 60%;
     display: flex;
     justify-content: center;
@@ -48,13 +57,13 @@ body {
     box-shadow: 0px 10px 40px;
 }
 
-.card-login > h1 {
+.card-login > h1{
     color: #00ff88;
     font-weight: 800;
     margin: 0;
 }
 
-.textfiled {
+.textfiled{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -63,7 +72,7 @@ body {
     margin: 10px 0px;
 }
 
-.textfiled > input {
+.textfiled > input{
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -76,17 +85,18 @@ body {
     box-sizing: border-box;
 }
 
-.textfiled > label {
+.textfiled > label{
     font-size: 15pt;
     color: #f0ffffde;
     margin-bottom: 10px;
+    font-weight: 800;
 }
 
-.textfiled > input::placeholder {
+.textfiled > input::placeholder{
     color: #f0ffff94;
 }
 
-.btn-login {
+.btn-login{
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -100,4 +110,39 @@ body {
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8058;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+
+    .left-login > h1 {
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login{
+        width: 100%;
+        height: auto;  
+    }
+
+    .login-image{
+        width: 50vw;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+
 }
