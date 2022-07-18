@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body{
+body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -9,47 +9,47 @@ body * {
     box-sizing: border-box;
 }
 
-.main-login{
+.main-login {
     width: 100vw;
     height: 100vh;
     background: #0D0D1F;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-.left-login{
+.left-login {
     width: 50vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
 }
 
-.left-login > h1{
+.left-login>h1 {
     font-size: 3vw;
     color: #00ff88;
 }
 
-.login-image{
+.login-image {
     width: 35vh;
 }
 
-.right-login{
+.right-login {
     width: 50vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 
 }
 
-.card-login{
+.card-login {
     width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
     padding: 30px 35px;
     background: #2f2841;
@@ -57,13 +57,13 @@ body * {
     box-shadow: 0px 10px 40px;
 }
 
-.card-login > h1{
+.card-login>h1 {
     color: #00ff88;
     font-weight: 800;
     margin: 0;
 }
 
-.textfiled{
+.textfiled {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ body * {
     margin: 10px 0px;
 }
 
-.textfiled > input{
+.textfiled>input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -85,18 +85,18 @@ body * {
     box-sizing: border-box;
 }
 
-.textfiled > label{
+.textfiled>label {
     font-size: 15pt;
     color: #f0ffffde;
     margin-bottom: 10px;
     font-weight: 800;
 }
 
-.textfiled > input::placeholder{
+.textfiled>input::placeholder {
     color: #f0ffff94;
 }
 
-.btn-login{
+.btn-login {
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -106,42 +106,42 @@ body * {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #2b134b; 
+    color: #2b134b;
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8058;
 }
 
-@media only screen and (max-width: 950px){
-    .card-login{
+@media only screen and (max-width: 950px) {
+    .card-login {
         width: 85%;
     }
 }
 
-@media only screen and (max-width: 600px){
-    .main-login{
+@media only screen and (max-width: 600px) {
+    .main-login {
         flex-direction: column;
     }
 
-    .left-login > h1 {
+    .left-login>h1 {
         display: none;
     }
 
-    .left-login{
+    .left-login {
         width: 100%;
         height: auto;
     }
 
-    .right-login{
+    .right-login {
         width: 100%;
-        height: auto;  
+        height: auto;
     }
 
-    .login-image{
+    .login-image {
         width: 50vw;
     }
 
-    .card-login{
+    .card-login {
         width: 90%;
     }
 

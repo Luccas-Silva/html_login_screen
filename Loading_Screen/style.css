@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body{
+body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,14 +16,14 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.main-loading > h1{
+.main-loading>h1 {
     font-size: 3vw;
     color: #00ff88;
 }
 
-.loading-image{
+.loading-image {
     width: 80vh;
 }
