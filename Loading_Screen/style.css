@@ -21,9 +21,8 @@ body * {
 }
 
 .main-loading > h1{
+    font-size: 3vw;
     color: #00ff88;
-    font-weight: 800;
-    margin: 0;
 }
 
 .loading-image{
