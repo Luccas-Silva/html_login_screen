@@ -9,8 +9,6 @@
 - O projeto consiste em criar uma tela de login e redirecionar usando uma tela de loading.
 - Foram usados componentes HTML e estilos CSS.
 
-### *Link do Site:* https://luccas-login.netlify.app/
-
 ## Design do Site
 
 ### Login Screen
