@@ -7,7 +7,7 @@
 </div>
 
 - O projeto consiste em criar uma tela de login e redirecionar usando uma tela de loading.
-- Foram usados componentes HTML e estilos CSS.
+- Foram usados componentes `HTML` e estilos `CSS`.
 
 ## Design do Site
 
